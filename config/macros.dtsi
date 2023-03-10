@@ -8,7 +8,7 @@ macro_screenshot_mac: macro_screenshot_mac{
 compatible = "zmk,behavior-macro";
 label = "macro_screenshot_mac";
 #binding-cells = <0>;
-bindings = <&sk LSHIFT>, <&sk LGUI>, <&sk LCTRL>, <&kp NUMBER_4>;
+bindings = <&kt LSHIFT>, <&kt LGUI>, <&kt LCTRL>, <&kp NUMBER_4>, <&kt LCTRL>, <&kt LGUI>, <&kt LSHIFT>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";

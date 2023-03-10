@@ -2,13 +2,13 @@ macro_prtscr_dir_mac: macro_prtscr_dir_mac{
 compatible = "zmk,behavior-macro";
 label = "macro_prtscr_dir_mac";
 #binding-cells = <0>;
-bindings = <&kt LSHIFT>, <&kt LGUI>, <&kp NUMBER_4>;
+bindings = <&kt LSHIFT>, <&kt LGUI>, <&kp NUMBER_4>, <&kt LGUI>, <&kt LSHIFT>;
 };
 macro_screenshot_mac: macro_screenshot_mac{
 compatible = "zmk,behavior-macro";
 label = "macro_screenshot_mac";
 #binding-cells = <0>;
-bindings = <&kt LSHIFT>, <&kt LGUI>, <&kt LCTRL>, <&kp NUMBER_4>;
+bindings = <&sk LSHIFT>, <&sk LGUI>, <&sk LCTRL>, <&kp NUMBER_4>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";

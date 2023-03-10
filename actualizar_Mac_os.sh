@@ -27,5 +27,5 @@ fi
 sudo diskutil unmount /dev/$disco
 sudo mkdir $kPathDer
 sudo mount -w -t msdos /dev/$disco $kPathDer
-read -p "pegá el archivo left.uf2 que hayas generado en donde se abra el finder en $kPathDer. Toca Enter para abrirlo ahora"
+read -p "pegá el archivo rigth.uf2 que hayas generado en donde se abra el finder en $kPathDer. Toca Enter para abrirlo ahora"
 open $kPathDer
